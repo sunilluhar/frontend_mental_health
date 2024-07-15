@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Care</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health Care</h1>
+    </header>
+    <main>
+        <section id="moodEntry">
+            <h2>How are you feeling today?</h2>
+            <form id="moodForm">
+                <label for="mood">Select your mood:</label>
+                <select id="mood" name="mood">
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                    <option value="anxious">Anxious</option>
+                    <option value="calm">Calm</option>
+                    <option value="angry">Angry</option>
+                    <option value="confused">Confused</option>
+                </select>
+                <label for="thoughts">Write down your thoughts:</label>
+                <textarea id="thoughts" name="thoughts" rows="4" cols="50"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="callDoctor">
+            <h2>Request a Call from a Doctor</h2>
+            <form id="callDoctorForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="phone">Your Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="submit">Request Call</button>
+            </form>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Here are some resources that might help:</p>
+            <ul>
+                <li><a href="https://www.snehamumbai.org/crisis-helpline/">Crisis hotline</a></li>
+                <li><a href="https://www.practo.com/pune/clinic/atharva-clinic-nibm-1">Therapist directory</a></li>
+                <li><a href="https://www.activeminds.org/about-mental-health/self-care/">Self-care tips</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mental Health Care. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
